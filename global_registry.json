@@ -264,6 +264,218 @@
     "status": "open",
     "title": "Create integration test suite"
   },
+  "LUNACO-MISC-001": {
+    "component": "MISC",
+    "github_number": 1,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-001",
+    "labels": [
+      "gameplay",
+      "economy",
+      "phase-8",
+      "core"
+    ],
+    "local_number": 34,
+    "milestone": "Phase 8 - Game Mechanics",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement resource management system"
+  },
+  "LUNACO-MISC-002": {
+    "component": "MISC",
+    "github_number": 2,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-002",
+    "labels": [
+      "gameplay",
+      "progression",
+      "phase-8",
+      "core"
+    ],
+    "local_number": 35,
+    "milestone": "Phase 8 - Game Mechanics",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Create technology tree system"
+  },
+  "LUNACO-MISC-003": {
+    "component": "MISC",
+    "github_number": 4,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-003",
+    "labels": [
+      "gameplay",
+      "building",
+      "phase-8"
+    ],
+    "local_number": 37,
+    "milestone": "Phase 8 - Game Mechanics",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Create construction system"
+  },
+  "LUNACO-MISC-004": {
+    "component": "MISC",
+    "github_number": 5,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-004",
+    "labels": [
+      "gameplay",
+      "events",
+      "phase-8"
+    ],
+    "local_number": 38,
+    "milestone": "Phase 8 - Game Mechanics",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement disaster and event system"
+  },
+  "LUNACO-MISC-005": {
+    "component": "MISC",
+    "github_number": 8,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-005",
+    "labels": [
+      "persistence",
+      "core",
+      "phase-9"
+    ],
+    "local_number": 41,
+    "milestone": "Phase 9 - Multiplayer & UI",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement save system"
+  },
+  "LUNACO-MISC-006": {
+    "component": "MISC",
+    "github_number": 9,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-006",
+    "labels": [
+      "tutorial",
+      "content",
+      "phase-9"
+    ],
+    "local_number": 42,
+    "milestone": "Phase 9 - Multiplayer & UI",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Create tutorial campaign"
+  },
+  "LUNACO-MISC-007": {
+    "component": "MISC",
+    "github_number": 10,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-007",
+    "labels": [
+      "gameplay",
+      "progression",
+      "phase-9"
+    ],
+    "local_number": 43,
+    "milestone": "Phase 9 - Multiplayer & UI",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement achievement system"
+  },
+  "LUNACO-MISC-008": {
+    "component": "MISC",
+    "github_number": 11,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-008",
+    "labels": [
+      "content",
+      "scenarios",
+      "phase-10"
+    ],
+    "local_number": 44,
+    "milestone": "Phase 10 - Content & Polish",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Create scenario campaigns"
+  },
+  "LUNACO-MISC-009": {
+    "component": "MISC",
+    "github_number": 12,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-009",
+    "labels": [
+      "gameplay",
+      "balancing",
+      "phase-10"
+    ],
+    "local_number": 45,
+    "milestone": "Phase 10 - Content & Polish",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Balance and tuning pass"
+  },
+  "LUNACO-MISC-010": {
+    "component": "MISC",
+    "github_number": 13,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MISC-010",
+    "labels": [
+      "polish",
+      "audio",
+      "visuals",
+      "phase-10"
+    ],
+    "local_number": 46,
+    "milestone": "Phase 10 - Content & Polish",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Audio and visual polish"
+  },
+  "LUNACO-MODEL-001": {
+    "component": "MODEL",
+    "github_number": 3,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-MODEL-001",
+    "labels": [
+      "gameplay",
+      "simulation",
+      "phase-8"
+    ],
+    "local_number": 36,
+    "milestone": "Phase 8 - Game Mechanics",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement colonist management"
+  },
+  "LUNACO-NET-001": {
+    "component": "NET",
+    "github_number": 6,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-NET-001",
+    "labels": [
+      "networking",
+      "multiplayer",
+      "phase-9",
+      "critical-path"
+    ],
+    "local_number": 39,
+    "milestone": "Phase 9 - Multiplayer & UI",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Implement multiplayer architecture"
+  },
+  "LUNACO-VIZ-001": {
+    "component": "VIZ",
+    "github_number": 7,
+    "github_repo": "bondlegend4/lunaco-sim",
+    "global_id": "LUNACO-VIZ-001",
+    "labels": [
+      "ui",
+      "frontend",
+      "phase-9"
+    ],
+    "local_number": 40,
+    "milestone": "Phase 9 - Multiplayer & UI",
+    "project": "LUNACO",
+    "status": "open",
+    "title": "Create game HUD and controls"
+  },
   "MODBUS-DEPLOY-001": {
     "component": "DEPLOY",
     "github_number": 12,
