@@ -163,6 +163,107 @@
     "status": "open",
     "title": "Create integration test suite"
   },
+  "GODOT-DOC-001": {
+    "component": "DOC",
+    "github_number": 5,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-DOC-001",
+    "labels": [
+      "documentation",
+      "godot",
+      "phase-4"
+    ],
+    "local_number": 5,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Write integration documentation"
+  },
+  "GODOT-RUST-001": {
+    "component": "RUST",
+    "github_number": 1,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-RUST-001",
+    "labels": [
+      "rust",
+      "godot",
+      "integration",
+      "phase-4",
+      "setup"
+    ],
+    "local_number": 1,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Create GDExtension with godot-rust"
+  },
+  "GODOT-RUST-002": {
+    "component": "RUST",
+    "github_number": 2,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-RUST-002",
+    "labels": [
+      "rust",
+      "godot",
+      "core",
+      "phase-4",
+      "critical-path"
+    ],
+    "local_number": 2,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Implement ColonySimulation node"
+  },
+  "GODOT-RUST-003": {
+    "component": "RUST",
+    "github_number": 3,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-RUST-003",
+    "labels": [
+      "rust",
+      "performance",
+      "phase-4"
+    ],
+    "local_number": 3,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Optimize data transfer to GDScript"
+  },
+  "GODOT-RUST-004": {
+    "component": "RUST",
+    "github_number": 4,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-RUST-004",
+    "labels": [
+      "rust",
+      "godot",
+      "networking",
+      "phase-4"
+    ],
+    "local_number": 4,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Create multiplayer support"
+  },
+  "GODOT-TEST-001": {
+    "component": "TEST",
+    "github_number": 6,
+    "github_repo": "bondlegend4/godot-modelica-rust-integration",
+    "global_id": "GODOT-TEST-001",
+    "labels": [
+      "testing",
+      "godot",
+      "phase-4"
+    ],
+    "local_number": 6,
+    "milestone": "Phase 4 - Godot Integration",
+    "project": "GODOT",
+    "status": "open",
+    "title": "Create integration test suite"
+  },
   "MODBUS-DEPLOY-001": {
     "component": "DEPLOY",
     "github_number": 12,
