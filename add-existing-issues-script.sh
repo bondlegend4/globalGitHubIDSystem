@@ -51,13 +51,13 @@ add_issues_to_project() {
 }
 
 # Add issues from each repo to its own project
-# echo "Adding issues from repos to their own project"
-# add_issues_to_project "space-colony-modelica-core" "$MODELICA_CORE_PROJECT" "Modelica Core"
-# add_issues_to_project "modelica-rust-ffi" "$FFI_PROJECT" "FFI"
-# add_issues_to_project "modelica-rust-modbus-server" "$MODBUS_PROJECT" "Modbus Server"
-# add_issues_to_project "godot-modelica-rust-integration" "$GODOT_PROJECT" "Godot Integration"
-# add_issues_to_project "lunaco-sim" "$LUNACO_PROJECT" "LunaCo Sim"
-# add_issues_to_project "V-ICS" "$VICS_SEC_PROJECT" "VICS Security"
+echo "Adding issues from repos to their own project"
+add_issues_to_project "space-colony-modelica-core" "$MODELICA_CORE_PROJECT" "Modelica Core"
+add_issues_to_project "modelica-rust-ffi" "$FFI_PROJECT" "FFI"
+add_issues_to_project "modelica-rust-modbus-server" "$MODBUS_PROJECT" "Modbus Server"
+add_issues_to_project "godot-modelica-rust-integration" "$GODOT_PROJECT" "Godot Integration"
+add_issues_to_project "lunaco-sim" "$LUNACO_PROJECT" "LunaCo Sim"
+add_issues_to_project "V-ICS" "$VICS_SEC_PROJECT" "VICS Security"
 
 # Adding issues 
 echo "Adding issues from repos to the v-ics.le project"
