@@ -1,0 +1,233 @@
+{
+  "MODELICA-BUILD-001": {
+    "component": "BUILD",
+    "github_number": 17,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-BUILD-001",
+    "labels": [
+      "build",
+      "validation",
+      "phase-1",
+      "critical-path"
+    ],
+    "local_number": 3,
+    "milestone": "Phase 1 - Foundation & Validation",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Test C code generation and validation"
+  },
+  "MODELICA-BUILD-002": {
+    "component": "BUILD",
+    "github_number": 26,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-BUILD-002",
+    "labels": [
+      "build",
+      "integration",
+      "phase-4",
+      "critical-path"
+    ],
+    "local_number": 12,
+    "milestone": "Phase 4 - System Integration & C Library",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Configure C library generation"
+  },
+  "MODELICA-DOC-001": {
+    "component": "DOC",
+    "github_number": 18,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-DOC-001",
+    "labels": [
+      "documentation",
+      "build",
+      "phase-1"
+    ],
+    "local_number": 4,
+    "milestone": "Phase 1 - Foundation & Validation",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Document Modelica to C workflow"
+  },
+  "MODELICA-DOC-002": {
+    "component": "DOC",
+    "github_number": 28,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-DOC-002",
+    "labels": [
+      "documentation",
+      "api",
+      "phase-4"
+    ],
+    "local_number": 14,
+    "milestone": "Phase 4 - System Integration & C Library",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create C library documentation"
+  },
+  "MODELICA-ENV-001": {
+    "component": "ENV",
+    "github_number": 15,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-ENV-001",
+    "labels": [
+      "setup",
+      "environment",
+      "phase-1"
+    ],
+    "local_number": 1,
+    "milestone": "Phase 1 - Foundation & Validation",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Set up OpenModelica with required libraries"
+  },
+  "MODELICA-ENV-002": {
+    "component": "ENV",
+    "github_number": 16,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-ENV-002",
+    "labels": [
+      "setup",
+      "devops",
+      "phase-1"
+    ],
+    "local_number": 2,
+    "milestone": "Phase 1 - Foundation & Validation",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create version control and CI infrastructure"
+  },
+  "MODELICA-MODEL-001": {
+    "component": "MODEL",
+    "github_number": 19,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-001",
+    "labels": [
+      "modeling",
+      "power-systems",
+      "phase-2",
+      "core"
+    ],
+    "local_number": 5,
+    "milestone": "Phase 2 - Power System Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Implement nuclear reactor thermal model"
+  },
+  "MODELICA-MODEL-002": {
+    "component": "MODEL",
+    "github_number": 20,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-002",
+    "labels": [
+      "modeling",
+      "power-systems",
+      "phase-2",
+      "core"
+    ],
+    "local_number": 6,
+    "milestone": "Phase 2 - Power System Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Model colony DC microgrid"
+  },
+  "MODELICA-MODEL-003": {
+    "component": "MODEL",
+    "github_number": 21,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-003",
+    "labels": [
+      "modeling",
+      "integration",
+      "phase-2"
+    ],
+    "local_number": 7,
+    "milestone": "Phase 2 - Power System Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create power system integration model"
+  },
+  "MODELICA-MODEL-004": {
+    "component": "MODEL",
+    "github_number": 22,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-004",
+    "labels": [
+      "modeling",
+      "life-support",
+      "phase-3",
+      "core"
+    ],
+    "local_number": 8,
+    "milestone": "Phase 3 - Life Support Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Model life support system (ECLSS)"
+  },
+  "MODELICA-MODEL-005": {
+    "component": "MODEL",
+    "github_number": 23,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-005",
+    "labels": [
+      "modeling",
+      "thermal",
+      "phase-3",
+      "core"
+    ],
+    "local_number": 9,
+    "milestone": "Phase 3 - Life Support Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Model habitat thermal management"
+  },
+  "MODELICA-MODEL-006": {
+    "component": "MODEL",
+    "github_number": 24,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-006",
+    "labels": [
+      "modeling",
+      "integration",
+      "phase-3"
+    ],
+    "local_number": 10,
+    "milestone": "Phase 3 - Life Support Models",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create life support integration model"
+  },
+  "MODELICA-MODEL-007": {
+    "component": "MODEL",
+    "github_number": 25,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-007",
+    "labels": [
+      "modeling",
+      "integration",
+      "phase-4",
+      "critical-path"
+    ],
+    "local_number": 11,
+    "milestone": "Phase 4 - System Integration & C Library",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create unified ColonySystem model"
+  },
+  "MODELICA-TEST-001": {
+    "component": "TEST",
+    "github_number": 27,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-TEST-001",
+    "labels": [
+      "testing",
+      "validation",
+      "phase-4"
+    ],
+    "local_number": 13,
+    "milestone": "Phase 4 - System Integration & C Library",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Validate integrated simulation"
+  }
+}
