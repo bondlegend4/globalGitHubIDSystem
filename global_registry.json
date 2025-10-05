@@ -1,4 +1,168 @@
 {
+  "FFI-DOC-001": {
+    "component": "DOC",
+    "github_number": 8,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-DOC-001",
+    "labels": [
+      "documentation",
+      "rust",
+      "phase-3"
+    ],
+    "local_number": 22,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Write Rust API documentation"
+  },
+  "FFI-PERF-001": {
+    "component": "PERF",
+    "github_number": 10,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-PERF-001",
+    "labels": [
+      "performance",
+      "rust",
+      "phase-3"
+    ],
+    "local_number": 24,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Performance optimization and profiling"
+  },
+  "FFI-RUST-001": {
+    "component": "RUST",
+    "github_number": 1,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-001",
+    "labels": [
+      "rust",
+      "ffi",
+      "setup",
+      "phase-3"
+    ],
+    "local_number": 15,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Set up Rust workspace and bindgen"
+  },
+  "FFI-RUST-002": {
+    "component": "RUST",
+    "github_number": 2,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-002",
+    "labels": [
+      "rust",
+      "ffi",
+      "phase-3",
+      "critical-path"
+    ],
+    "local_number": 16,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Generate Rust bindings with bindgen"
+  },
+  "FFI-RUST-003": {
+    "component": "RUST",
+    "github_number": 3,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-003",
+    "labels": [
+      "rust",
+      "api",
+      "phase-3",
+      "core"
+    ],
+    "local_number": 17,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Create ModelicaRuntime safe wrapper"
+  },
+  "FFI-RUST-004": {
+    "component": "RUST",
+    "github_number": 4,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-004",
+    "labels": [
+      "rust",
+      "data",
+      "phase-3"
+    ],
+    "local_number": 18,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Implement variable registry with type safety"
+  },
+  "FFI-RUST-005": {
+    "component": "RUST",
+    "github_number": 5,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-005",
+    "labels": [
+      "rust",
+      "concurrency",
+      "phase-3",
+      "critical-path"
+    ],
+    "local_number": 19,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Implement thread-safe shared access"
+  },
+  "FFI-RUST-006": {
+    "component": "RUST",
+    "github_number": 6,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-006",
+    "labels": [
+      "rust",
+      "persistence",
+      "phase-3"
+    ],
+    "local_number": 20,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Add state serialization support"
+  },
+  "FFI-RUST-007": {
+    "component": "RUST",
+    "github_number": 7,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-RUST-007",
+    "labels": [
+      "rust",
+      "error-handling",
+      "phase-3"
+    ],
+    "local_number": 21,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Create comprehensive error handling"
+  },
+  "FFI-TEST-001": {
+    "component": "TEST",
+    "github_number": 9,
+    "github_repo": "bondlegend4/modelica-rust-ffi",
+    "global_id": "FFI-TEST-001",
+    "labels": [
+      "testing",
+      "rust",
+      "phase-3"
+    ],
+    "local_number": 23,
+    "milestone": "Phase 3 - Rust FFI Wrapper",
+    "project": "FFI",
+    "status": "open",
+    "title": "Create integration test suite"
+  },
   "MODELICA-BUILD-001": {
     "component": "BUILD",
     "github_number": 17,

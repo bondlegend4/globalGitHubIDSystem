@@ -295,6 +295,14 @@ class GitHubImporter:
         # Parse markdown
         milestones, epics, issues = self.parse_markdown()
         
+        # Collect all unique labels
+        all_labels = set()
+        for issue in epics + issues:
+            all_labels.update(issue.labels)
+
+        # Ensure all labels exist
+        self.ensure_labels_exist(all_labels) 
+
         # Assign global IDs
         print(f"Assigning global IDs...")
         for issue in epics + issues:
@@ -347,6 +355,53 @@ class GitHubImporter:
             print(f"2. Registry saved to {self.id_assigner.registry_file}")
             print(f"3. Add issues to project board manually or via GitHub Actions")
     
+    def ensure_labels_exist(self, all_labels: set):
+        """Create any missing labels in the repository"""
+        if self.dry_run:
+            print(f"\n[DRY RUN] Would ensure {len(all_labels)} labels exist")
+            return
+        
+        print(f"\nEnsuring labels exist...")
+        
+        # Color scheme for label categories
+        colors = {
+            'setup': '0e8a16', 'environment': '0e8a16',
+            'build': '1d76db', 'validation': '1d76db', 'devops': '1d76db',
+            'documentation': '0075ca', 'api': '0075ca',
+            'modeling': 'd93f0b', 'power-systems': 'd93f0b', 
+            'life-support': 'd93f0b', 'thermal': 'd93f0b',
+            'integration': '5319e7',
+            'testing': 'fbca04',
+            'phase-1': 'c2e0c6', 'phase-2': 'bfdadc', 
+            'phase-3': 'd4c5f9', 'phase-4': 'fef2c0',
+            'core': 'd93f0b',
+            'critical-path': 'b60205'
+        }
+        
+        for label in sorted(all_labels):
+            try:
+                # Check if label exists
+                result = subprocess.run(
+                    ['gh', 'api', f'repos/{self.repo}/labels/{label}'],
+                    capture_output=True, text=True, check=False
+                )
+                
+                if result.returncode == 0:
+                    print(f"  ✓ Label exists: {label}")
+                else:
+                    # Create label
+                    color = colors.get(label, 'cccccc')
+                    subprocess.run(
+                        ['gh', 'label', 'create', label, 
+                        '--repo', self.repo,
+                        '--color', color],
+                        capture_output=True, text=True, check=True
+                    )
+                    print(f"  ✓ Created label: {label}")
+                    
+            except subprocess.CalledProcessError as e:
+                print(f"  ✗ Failed to create label {label}: {e.stderr}")
+
     def parse_markdown(self):
         """Parse markdown file"""
         with open(self.markdown_file, 'r', encoding='utf-8') as f:
@@ -501,12 +556,12 @@ def main():
         description='Import issues with global IDs',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
-  # Dry run
-  python import_issues.py bondlegend4/godot-modelica-rust-integration modelica-rust-integration-issues.md
-  
-  # Live import
-  python import_issues.py bondlegend4/godot-modelica-rust-integration modelica-rust-integration-issues.md --live
+        Examples:
+        # Dry run
+        python import_issues.py bondlegend4/godot-modelica-rust-integration modelica-rust-integration-issues.md
+        
+        # Live import
+        python import_issues.py bondlegend4/godot-modelica-rust-integration modelica-rust-integration-issues.md --live
         """
     )
     
