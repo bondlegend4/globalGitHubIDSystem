@@ -902,5 +902,226 @@
     "project": "MODELICA",
     "status": "open",
     "title": "Validate integrated simulation"
+  },
+  "VICS-BACKEND-001": {
+    "component": "BACKEND",
+    "github_number": 12,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-BACKEND-001",
+    "labels": [
+      "backend",
+      "infrastructure",
+      "phase-8",
+      "docker"
+    ],
+    "local_number": 34,
+    "milestone": "Phase 8 - Security Infrastructure",
+    "project": "VICS",
+    "status": "open",
+    "title": "Architect and deploy Docker orchestration"
+  },
+  "VICS-BACKEND-002": {
+    "component": "BACKEND",
+    "github_number": 13,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-BACKEND-002",
+    "labels": [
+      "backend",
+      "security",
+      "networking",
+      "phase-8"
+    ],
+    "local_number": 35,
+    "milestone": "Phase 8 - Security Infrastructure",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement pfSense network segmentation"
+  },
+  "VICS-BACKEND-003": {
+    "component": "BACKEND",
+    "github_number": 14,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-BACKEND-003",
+    "labels": [
+      "backend",
+      "security",
+      "monitoring",
+      "phase-8"
+    ],
+    "local_number": 36,
+    "milestone": "Phase 8 - Security Infrastructure",
+    "project": "VICS",
+    "status": "open",
+    "title": "Deploy Zeek network monitoring"
+  },
+  "VICS-BACKEND-004": {
+    "component": "BACKEND",
+    "github_number": 15,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-BACKEND-004",
+    "labels": [
+      "backend",
+      "security",
+      "attacks",
+      "phase-8"
+    ],
+    "local_number": 37,
+    "milestone": "Phase 8 - Security Infrastructure",
+    "project": "VICS",
+    "status": "open",
+    "title": "Create attack generator container"
+  },
+  "VICS-INTEG-001": {
+    "component": "INTEG",
+    "github_number": 22,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-INTEG-001",
+    "labels": [
+      "integration",
+      "networking",
+      "phase-10",
+      "critical-path"
+    ],
+    "local_number": 44,
+    "milestone": "Phase 10 - Full System Integration",
+    "project": "VICS",
+    "status": "open",
+    "title": "Connect Godot to Rust Modbus data"
+  },
+  "VICS-INTEG-002": {
+    "component": "INTEG",
+    "github_number": 23,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-INTEG-002",
+    "labels": [
+      "integration",
+      "security",
+      "simulation",
+      "phase-10",
+      "critical-path"
+    ],
+    "local_number": 45,
+    "milestone": "Phase 10 - Full System Integration",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement attack effect propagation"
+  },
+  "VICS-SEC-001": {
+    "component": "SEC",
+    "github_number": 16,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-SEC-001",
+    "labels": [
+      "security",
+      "scenarios",
+      "phase-8",
+      "attacks"
+    ],
+    "local_number": 38,
+    "milestone": "Phase 8 - Security Infrastructure",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement MITRE ATT&CK for ICS TTPs"
+  },
+  "VICS-TEST-001": {
+    "component": "TEST",
+    "github_number": 24,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-TEST-001",
+    "labels": [
+      "testing",
+      "pedagogy",
+      "phase-10"
+    ],
+    "local_number": 46,
+    "milestone": "Phase 10 - Full System Integration",
+    "project": "VICS",
+    "status": "open",
+    "title": "Validate training effectiveness"
+  },
+  "VICS-VIZ-001": {
+    "component": "VIZ",
+    "github_number": 17,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-VIZ-001",
+    "labels": [
+      "ui",
+      "pedagogy",
+      "phase-9",
+      "frontend"
+    ],
+    "local_number": 39,
+    "milestone": "Phase 9 - Pedagogical UI",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement tutorial and dialogue system"
+  },
+  "VICS-VIZ-002": {
+    "component": "VIZ",
+    "github_number": 18,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-VIZ-002",
+    "labels": [
+      "ui",
+      "alerts",
+      "phase-9",
+      "frontend"
+    ],
+    "local_number": 40,
+    "milestone": "Phase 9 - Pedagogical UI",
+    "project": "VICS",
+    "status": "open",
+    "title": "Create attack notification system"
+  },
+  "VICS-VIZ-003": {
+    "component": "VIZ",
+    "github_number": 19,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-VIZ-003",
+    "labels": [
+      "ui",
+      "pedagogy",
+      "assessment",
+      "phase-9"
+    ],
+    "local_number": 41,
+    "milestone": "Phase 9 - Pedagogical UI",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement damage assessment screen (AAR)"
+  },
+  "VICS-VIZ-004": {
+    "component": "VIZ",
+    "github_number": 20,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-VIZ-004",
+    "labels": [
+      "ui",
+      "pedagogy",
+      "scenarios",
+      "phase-9"
+    ],
+    "local_number": 42,
+    "milestone": "Phase 9 - Pedagogical UI",
+    "project": "VICS",
+    "status": "open",
+    "title": "Create mission briefing system"
+  },
+  "VICS-VIZ-005": {
+    "component": "VIZ",
+    "github_number": 21,
+    "github_repo": "bondlegend4/V-ICS",
+    "global_id": "VICS-VIZ-005",
+    "labels": [
+      "ui",
+      "security",
+      "controls",
+      "phase-9"
+    ],
+    "local_number": 43,
+    "milestone": "Phase 9 - Pedagogical UI",
+    "project": "VICS",
+    "status": "open",
+    "title": "Implement security control configuration interface"
   }
 }
