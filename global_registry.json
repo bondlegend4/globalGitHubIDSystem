@@ -706,6 +706,23 @@
     "status": "open",
     "title": "Configure C library generation"
   },
+  "MODELICA-BUILD-003": {
+    "component": "BUILD",
+    "github_number": 30,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-BUILD-003",
+    "labels": [
+      "build",
+      "poc",
+      "validation",
+      "phase-1"
+    ],
+    "local_number": 102,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Test C library with simple main.c"
+  },
   "MODELICA-DOC-001": {
     "component": "DOC",
     "github_number": 18,
@@ -769,6 +786,40 @@
     "project": "MODELICA",
     "status": "open",
     "title": "Create version control and CI infrastructure"
+  },
+  "MODELICA-GODOT-001": {
+    "component": "GODOT",
+    "github_number": 34,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-GODOT-001",
+    "labels": [
+      "godot",
+      "visualization",
+      "poc",
+      "phase-4"
+    ],
+    "local_number": 106,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create minimal Godot visualization"
+  },
+  "MODELICA-INTEG-001": {
+    "component": "INTEG",
+    "github_number": 33,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-INTEG-001",
+    "labels": [
+      "integration",
+      "modbus",
+      "poc",
+      "phase-4"
+    ],
+    "local_number": 105,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Test Modbus with OpenPLC/SCADA-LTS"
   },
   "MODELICA-MODEL-001": {
     "component": "MODEL",
@@ -886,6 +937,57 @@
     "project": "MODELICA",
     "status": "open",
     "title": "Create unified ColonySystem model"
+  },
+  "MODELICA-MODEL-008": {
+    "component": "MODEL",
+    "github_number": 29,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-MODEL-008",
+    "labels": [
+      "modeling",
+      "poc",
+      "mvp",
+      "phase-1"
+    ],
+    "local_number": 101,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create SimpleThermalMVP Modelica model"
+  },
+  "MODELICA-RUST-001": {
+    "component": "RUST",
+    "github_number": 31,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-RUST-001",
+    "labels": [
+      "rust",
+      "ffi",
+      "poc",
+      "phase-3"
+    ],
+    "local_number": 103,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create minimal FFI wrapper for MVP"
+  },
+  "MODELICA-RUST-002": {
+    "component": "RUST",
+    "github_number": 32,
+    "github_repo": "bondlegend4/space-colony-modelica-core",
+    "global_id": "MODELICA-RUST-002",
+    "labels": [
+      "rust",
+      "modbus",
+      "poc",
+      "phase-4"
+    ],
+    "local_number": 104,
+    "milestone": "POC-Pipeline",
+    "project": "MODELICA",
+    "status": "open",
+    "title": "Create 2-register Modbus server for MVP"
   },
   "MODELICA-TEST-001": {
     "component": "TEST",
