@@ -163,6 +163,202 @@
     "status": "open",
     "title": "Create integration test suite"
   },
+  "MODBUS-DEPLOY-001": {
+    "component": "DEPLOY",
+    "github_number": 12,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-DEPLOY-001",
+    "labels": [
+      "deployment",
+      "docker",
+      "phase-4"
+    ],
+    "local_number": 36,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Create Docker Compose integration"
+  },
+  "MODBUS-DOC-001": {
+    "component": "DOC",
+    "github_number": 9,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-DOC-001",
+    "labels": [
+      "documentation",
+      "operations",
+      "phase-4"
+    ],
+    "local_number": 33,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Write operations documentation"
+  },
+  "MODBUS-INTEG-001": {
+    "component": "INTEG",
+    "github_number": 4,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-INTEG-001",
+    "labels": [
+      "integration",
+      "rust",
+      "phase-4",
+      "critical-path"
+    ],
+    "local_number": 28,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Integrate with modelica-rust-ffi"
+  },
+  "MODBUS-MODEL-001": {
+    "component": "MODEL",
+    "github_number": 6,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-MODEL-001",
+    "labels": [
+      "simulation",
+      "control",
+      "phase-4"
+    ],
+    "local_number": 30,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Implement simulation control"
+  },
+  "MODBUS-PERF-001": {
+    "component": "PERF",
+    "github_number": 11,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-PERF-001",
+    "labels": [
+      "performance",
+      "optimization",
+      "phase-4"
+    ],
+    "local_number": 35,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Performance optimization"
+  },
+  "MODBUS-PROTO-001": {
+    "component": "PROTO",
+    "github_number": 1,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-PROTO-001",
+    "labels": [
+      "modbus",
+      "protocol",
+      "design",
+      "phase-4"
+    ],
+    "local_number": 25,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Design Modbus register mapping"
+  },
+  "MODBUS-RUST-001": {
+    "component": "RUST",
+    "github_number": 2,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-RUST-001",
+    "labels": [
+      "rust",
+      "config",
+      "phase-4",
+      "core"
+    ],
+    "local_number": 26,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Create configuration system"
+  },
+  "MODBUS-RUST-002": {
+    "component": "RUST",
+    "github_number": 3,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-RUST-002",
+    "labels": [
+      "rust",
+      "modbus",
+      "networking",
+      "phase-4",
+      "critical-path"
+    ],
+    "local_number": 27,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Implement tokio-modbus server core"
+  },
+  "MODBUS-RUST-003": {
+    "component": "RUST",
+    "github_number": 5,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-RUST-003",
+    "labels": [
+      "observability",
+      "rust",
+      "phase-4"
+    ],
+    "local_number": 29,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Add metrics and monitoring"
+  },
+  "MODBUS-RUST-004": {
+    "component": "RUST",
+    "github_number": 7,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-RUST-004",
+    "labels": [
+      "rust",
+      "deployment",
+      "phase-4"
+    ],
+    "local_number": 31,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Build standalone server binary"
+  },
+  "MODBUS-SEC-001": {
+    "component": "SEC",
+    "github_number": 10,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-SEC-001",
+    "labels": [
+      "security",
+      "phase-4"
+    ],
+    "local_number": 34,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Implement security features"
+  },
+  "MODBUS-TEST-001": {
+    "component": "TEST",
+    "github_number": 8,
+    "github_repo": "bondlegend4/modelica-rust-modbus-server",
+    "global_id": "MODBUS-TEST-001",
+    "labels": [
+      "testing",
+      "modbus",
+      "phase-4"
+    ],
+    "local_number": 32,
+    "milestone": "Phase 4 - Modbus TCP Server",
+    "project": "MODBUS",
+    "status": "open",
+    "title": "Create test suite for Modbus compliance"
+  },
   "MODELICA-BUILD-001": {
     "component": "BUILD",
     "github_number": 17,
